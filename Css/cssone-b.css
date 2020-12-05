@@ -1,0 +1,13 @@
+h1{
+    color:gray;
+    background: ghostwhite;
+}
+.x{
+    color: darkgreen;
+}
+.y{
+    color: rgb(50, 87, 76);
+}
+h2~h3{
+    color: blue;
+}

@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: lightblue;
+}
+
+header [href]{
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    font-size: 4vmin;
+    background-color: rgba(240, 248, 255, 0.842);
+    color: black;
+    top: 2vmin;
+    border-radius: 2vmin;
+    padding: 1vmin;
+    filter: drop-shadow(3px 3px);
+}
+header [href]:active{
+    transition: 100ms;
+    filter: drop-shadow(0px 0px);
+}
+[href="#soporte"]{
+    right: 2vmin;
+}
+[href="#inicio"]{
+    left: 2vmin;
+}
+#menu{
+    background-color: rgba(127, 255, 212, 0.527);
+    width: 100%;
+    height: 10vmin;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+
+#menu-b{
+    background-color: rgba(240, 248, 255, 0.842);
+    width: 30vmin;
+    height: 10vmin;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 10vmin;
+    text-align: center;
+    position: fixed;
+
+}
+.titulo{
+    color: rgb(46, 46, 246);
+    font-size: 5vmin;
+    margin-top: 0.7vmin;
+    margin-bottom: 0.7vmin;
+    padding-top: 0.7vmin;
+    padding-bottom: 0.7vmin;
+ }
+
+.parr{
+    background-color: bisque;
+    margin-right: 10vmin;
+    margin-left: 10vmin;
+    text-align: left;
+}
+#animado{
+    color: aqua;
+    opacity: 0;
+    left: -100%;
+}
+.desnaimet{
+    opacity: 1;
+    left: 0;
+}
+
+main{
+    position: relative;
+    text-align: center;
+    top: 10vmin;
+}

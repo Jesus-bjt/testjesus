@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: rgb(255, 130, 0);
+    padding: 1vmin;
+    font-size: 5vmin;
+    text-align: center;
+}
+main .t{
+    text-align: center;
+    font-style: italic;
+    margin: 1vw 10%;
+}
+p{
+    text-indent: 15vw;
+    margin: 5vw;
+}
+footer div{
+    background-color: rgb(255, 162, 80);
+    padding: 10vmin;
+    margin: 0%;
+    font-size: 7.5vmin;
+    text-align: center;
+    text-transform: uppercase;
+}

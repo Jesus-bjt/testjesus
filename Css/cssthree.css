@@ -1,0 +1,23 @@
+body{
+    margin: 1vmin;
+    background-color:grey
+}
+
+.container{
+    width: 400px;
+    height: 250px;
+}
+.box{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+}
+/* #a{
+    background-color: green;
+}
+#b{
+    background-color: rgb(10, 10, 255);
+}
+#c{
+    background-color: red;
+} */

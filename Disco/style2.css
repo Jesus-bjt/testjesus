@@ -1,0 +1,36 @@
+h1,.location, .enterprise, .listdj, .networks{
+    margin: 0px 0px;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.3);
+}
+.img{
+    height: 70vw;
+    width: 95vw;
+}
+.network, .network>a>img{
+    width: 10vw;
+    height: 10vw;
+}
+.networks{
+    display: grid;
+  
+}
+/*
+.networks>p{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0%;
+}
+.network{
+    display: grid;
+    grid-row: 1/2;
+}
+#f, #f>a{
+    grid-column: 1/2;
+}
+#i, #i>a{
+    grid-column: 2/3;
+}
+#t, #t>a{
+    grid-column: 3/4;
+}

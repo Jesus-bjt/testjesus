@@ -5,18 +5,26 @@ body{
 }
 header{
     background-color: rgb(255, 130, 0);
-    padding: 1vmin;
-    font-size: 5vmin;
+    padding: 7vmin;
+    font-size: 3vmin;
     text-align: center;
+
 }
 main .t{
     text-align: center;
     font-style: italic;
-    margin: 1vw 10%;
+    margin: 2vw 10%;
 }
+.parrafo{
+    display: grid;
+    background-color: brown;
+}
+
 p{
     text-indent: 15vw;
-    margin: 5vw;
+    margin: 3vw 7vw;
+    background-color: rgba(255, 0, 0, 0.171);
+    padding: 1.5vw;
 }
 footer div{
     background-color: rgb(255, 162, 80);
@@ -25,4 +33,13 @@ footer div{
     font-size: 7.5vmin;
     text-align: center;
     text-transform: uppercase;
+}
+@media screen and (min-width: 480px){
+    footer div{
+        padding: 5%;
+        font-size: 7.5vmin;
+    }
+    .parrafo{
+        grid-template-columns: repeat(2, 50%);
+    }
 }

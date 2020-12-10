@@ -1,0 +1,227 @@
+body,h1{
+    margin: 0;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2014/05/03/01/02/concert-336695_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+.content-total{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+h1{
+    background-color: rgba(0, 0, 0,0.6);
+    padding: 5vh 0;
+    font-size: 6vh;
+}
+main{
+    display: grid;
+    grid-template-rows: 87vh 82vh 24vh;
+}
+h1,.list,form,.note{
+    text-align: center;
+}
+.list,form,.note{
+    justify-content: center;
+}
+.list,form{
+    display: grid;
+}
+.list{
+    grid-template-columns: 90%;
+    grid-template-rows: repeat(4,22vh);
+}
+.list img{
+    width: 75%;
+    height: 20vh;
+}
+.list div{
+    padding: 1vh 0;
+}
+form{
+    padding-top: 5vh;
+    width: 72vw;
+    margin: auto;
+}
+input,label{
+    display: block;
+    margin: auto;
+}
+#nld{
+    width: 100%;
+}
+#typemusic{
+    width: 35vw;
+    margin: 0 auto;
+    height: 35vh;
+}
+.note{
+    font-size: 3.75vh;
+    padding: 3vw 10vw;
+    height: 17vh;
+}
+#dtp{
+    display: none;
+}
+input{
+    margin: 0.5vh auto 1.5vh;
+}
+/*----------------------------------------------------------------------------------------------*/
+.enterprise, .listdj, .networks,.mrg0{
+    text-align: center;
+    }
+    .enterprise, .listdj, .networks{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .network>a>img{
+        width: 2em;
+        height: 2em;
+    }
+    .networks,.network{
+        display: grid;
+        place-items: center;
+    }
+    .networks{
+        grid-row: 1/3;
+        grid-column: 2/3;
+    }
+    footer{
+        display: grid;
+        grid-gap: 1vw;
+        grid-template-columns: 4fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 2vw 0vw 0vw;
+        /* position: absolute; */
+        bottom: 0;
+        height: 29vh;
+    }
+    .enterprise,.listdj{
+        padding: 1vw;
+        grid-column: 1/2;
+    }
+    a>img{
+        border-radius: 50%;
+    }
+    .mrg0{
+        font-size: 4vw;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    #img,#imgn{
+        height: 48vh;
+        width: 100vw;
+        margin: 0%;
+    }
+    .mrg0,p.mrg{
+            margin: 0 0;
+    }
+    p.mrg, address.mrg{
+        font-size: 3.5vw;
+    }
+/*----------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px){
+    main{
+        grid-template-columns: 40vw 58vw;
+        grid-template-rows: 74vh 20vh;
+    }
+    h1{
+        padding: 2vw;
+        font-size: 6vh;
+    }
+    .list,form,.note{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .list{
+        width: 56vw;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding:7vh 0;
+        grid-template-columns: repeat(2,30vw);
+        grid-template-rows: repeat(2,27vh);
+    }
+    .list img{
+        width: 100%;
+        height: 100%;
+        border: solid 1px;
+        transition: 0.75s;
+        filter: grayscale(1);
+    }
+    .list img:hover{
+        filter: grayscale(0);
+        transform: scale(0.90);
+    }
+    form{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        height: 95%;
+        grid-template-rows: 6vh 27vh 6vh 30vh;
+        width: 40vw;
+    }
+    .name,.lastname,.age,#typemusic div{
+        padding: 1vh 0;
+        font-size: 2.8vh;
+        width: 25vw;
+        margin: auto;
+    }
+    #typemusic div {
+        margin: 0;
+        width: 20vw;
+    }
+    .list div{
+        padding: 1vh;
+    }
+    #typemusic{
+        display: grid;
+        grid-template-columns: repeat(2,15vw);
+        grid-template-rows: repeat(2,12vh);
+    }
+    form>p{
+        font-size: 2.8vh;
+        margin:1vh 0;
+    }
+    #dtp{
+        display:block;
+        grid-row: 1/2;
+    }
+    #nld{
+        grid-row: 2/3;
+    }
+    .note{
+        grid-column: 1/3;
+        grid-row: 2/3;
+        padding: 1vh 10vh;
+    }
+    footer{
+        grid-template-columns: 26vw 30vw 40vw;
+        height: 19vh;
+    }
+    .listdj{
+        grid-column: 2/3;
+    }
+    .networks{
+        grid-column: 3/4;
+        grid-template-rows: 1fr 3fr;
+        grid-template-columns: repeat(3,1fr);
+        margin-bottom: 1.5vh;
+    }
+    .mrg0{
+        font-size: 2.5vw;
+    }
+    p.mrg, address.mrg{
+        font-size: 2vw;
+    }
+    #follow{
+        grid-column: 1/4;
+    }
+    .network>a>img{
+        width: 3em;
+        height: 3em;
+        filter: grayscale(1);
+        transition: 0.75s;
+    }
+    .network>a>img:hover{
+        filter: grayscale(0);
+        transform: scale(1.5);
+    }
+}

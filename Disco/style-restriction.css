@@ -1,0 +1,127 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/22/19/04/crowd-1056764_960_720.jpg);
+    background-color: #010055;
+    color: rgba(255, 255, 255, 0.65);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+h1,.enterprise, .listdj, .networks,.mrg0,#msj{
+text-align: center;
+}
+.enterprise, .listdj, .networks, #msj{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+body, h1,#msj{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: rgb(167, 0, 0);
+}
+#msj{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    place-items: center;
+}
+.img{
+    background-image:url(https://cdn.pixabay.com/photo/2020/02/13/14/54/keep-out-4845935_960_720.jpg);
+    width: 90vw;
+    height: 57.5vh;
+    background-size: cover;
+    margin: 5vh auto;
+    background-position: center;
+}
+.network>a>img{
+    width: 2em;
+    height: 2em;
+}
+.networks,.network{
+    display: grid;
+    place-items: center;
+}
+.networks{
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+footer{
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 2vw 0vw 0vw;
+    position: absolute;
+    bottom: 0;
+    height: 29vh;
+}
+.enterprise,.listdj{
+    padding: 1vw;
+    grid-column: 1/2;
+}
+a>img{
+    border-radius: 50%;
+}
+.mrg0{
+    font-size: 4vw;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#img,#imgn{
+    height: 48vh;
+    width: 100vw;
+    margin: 0%;
+}
+.mrg0,p.mrg{
+        margin: 0 0;
+}
+p.mrg, address.mrg{
+    font-size: 4vw;
+}
+p#msj{
+    font-size: 1.5em;
+}
+/*----------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px){
+    body{
+      background-size: cover;
+    }
+    h1{
+        font-size: 6vh;
+        margin: 0 0.1vh;
+    }
+    .img{
+        height: 65vh;
+    }
+    footer{
+        grid-template-columns: 26vw 30vw 40vw;
+        height: 19vh;
+    }
+    .listdj{
+        grid-column: 2/3;
+    }
+    .networks{
+        grid-column: 3/4;
+        grid-template-rows: 1fr 3fr;
+        grid-template-columns: repeat(3,1fr);
+        margin-bottom: 1.5vh;
+    }
+    .mrg0{
+        font-size: 2.5vw;
+    }
+    p.mrg, address.mrg{
+        font-size: 2.5vw;
+    }
+    #follow{
+        grid-column: 1/4;
+    }
+    .network>a>img{
+        width: 3em;
+        height: 3em;
+        filter: grayscale(1);
+        transition: 0.75s;
+    }
+    .network>a>img:hover{
+        filter: grayscale(0);
+        transform: scale(1.5);
+    }
+}
